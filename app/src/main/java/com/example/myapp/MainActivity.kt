@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         //iojiiuhui
         //1234567
+        //33
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
